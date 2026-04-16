@@ -1,0 +1,23 @@
+# Environment file (IMPORTANT - never push secrets)
+.env
+
+# Composer dependencies
+/vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Cache / temp
+*.cache
+*.tmp
+
+# Node modules (if ever used)
+node_modules/
