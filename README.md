@@ -10,3 +10,22 @@ A simple **industrial-level PHP API** for user authentication (Signup & Login) u
 ---
 
 ## 📁 Project Structure
+
+```
+composer.json
+README.md
+vendor/
+public/
+  index.php
+routes/
+  api.php
+app/
+  Config/
+    Database.php
+  Controllers/
+    AuthController.php
+  Models/
+    User.php
+  Services/
+    AuthService.php
+```
